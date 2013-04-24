@@ -63,7 +63,7 @@ body {
 }
 
 .container .banner .text .third-line {
-  font-size:170%;
+  font-size:160%;
 }
 
 .container .banner .phone-to-printer {
@@ -88,4 +88,9 @@ body {
 
 .container .commands ul ul li {
   margin:1% 0 1% 5%;
+}
+
+footer .scottylabs {
+  margin-top:10%;
+  text-align:center;
 }
