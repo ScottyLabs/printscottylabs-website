@@ -1,0 +1,91 @@
+html, body {
+  height:100%;
+}
+
+body {
+  font-family:'Bitter', "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  min-height:100%;
+  width:90%;
+  max-width:960px;
+  margin:0 auto;
+  background-image:url('/img/white-tile.png');
+}
+
+.container header {
+  background-image:none;
+  background-color:white;
+  padding-top:5%;
+  padding-bottom:2%;
+}
+
+.container header p {
+  margin-bottom:0px;
+  font-size:150%;
+}
+
+.container .h-padded {
+  padding-left:10%;
+  padding-right:10%;
+}
+
+.container .banner {
+  color:#FFFFFF;
+  background-image:url('/img/blue-tile.png');
+  background-color:blue;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+.container .banner a {
+  color:#FFFFFF;
+}
+
+.container .banner a:hover {
+  color:#DDDDDD;
+}
+
+.container .banner .text {
+  width:45%;
+  display:inline-block;
+  text-align:justify;
+  margin:0;
+}
+
+.container .banner .text .first-line {
+  font-size:200%;
+}
+
+.container .banner .text .second-line {
+  font-size:270%;
+}
+
+.container .banner .text .third-line {
+  font-size:170%;
+}
+
+.container .banner .phone-to-printer {
+  width:50%;
+  display:inline-block;
+  vertical-align:top;
+  margin:0 0 0 4%;
+}
+
+.container .commands {
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+.container .commands p {
+  margin:0;
+}
+
+.container .commands ul li {
+  margin:0 0 2%;
+}
+
+.container .commands ul ul li {
+  margin:1% 0 1% 5%;
+}

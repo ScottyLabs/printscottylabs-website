@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<header class="h-padded">
+  <h1>Print@ScottyLabs</h1>
+  <p>A simple solution to printing on the go at CMU</p>
+</header>
+
+<section class="h-padded banner">
+  <p class="text">
+    <span class="first-line">Just send a document to</span>
+    <span class="second-line"><a href="mailto:print@scottylabs.org">print@scottylabs.org</a></span>
+    <span class="third-line">to add to your CMU print queue</span>
+  </p>
+  <img class="phone-to-printer" src="/img/phone-to-printer.png">
+</section>
+
+<section class="h-padded commands">
+  <ul>
+    <li>
+      <h3>PRINT</h3>
+      <p>
+        To print a document, send it as an attachment to <a href="mailto:print@scottylabs.org">print@scottylabs.org</a> from your
+        @andrew.cmu.edu email account (or another account you have linked;
+        see below).  Currently, PDFs and plain text documents are supported. Other
+        formats might work too, but are not guaranteed.
+      </p>
+    </li>
+    <li>
+      <h3>LINK</h3>
+      <p>
+        To configure your account with <a href="mailto:print@scottylabs.org">print@scottylabs.org</a>, send an email with
+        "CONFIGURE" in the subject line (in all caps). In the message body, put
+        one of the following commands on each line:
+      </p>
+      <ul>
+        <li>
+          "LINK new_address@example.com" - starts the process to link an
+           email address that we don't know about to the one you're sending
+           from. Note that you'll have to confirm that the new address is yours
+           before you can use it.
+        </li>
+        <li>
+          "UNLINK some_address@example.com" - starts the process of unlinking an
+          email address from your account. Note that you can't unlink your
+          andrew account from its own print queue.
+        </li>
+      </ul>
+    </li>
+    <li>
+      <h3>HELP</h3>
+      <p>
+        To get help, send an email to print@scottylabs.org with
+        "HELP" in the subject line (in all caps).
+      </p>
+    </li>
+  </ul>
+</section>
+
+<footer class="h-padded">
+  <p>
+    Remember that this service is currently in beta. You may encounter bugs, broken features, or brief service outages as we continue to improve <a href="mailto:print@scottylabs.org">print@scottylabs.org</a>. Use <a href="mailto:print@scottylabs.org">print@scottylabs.org</a> for mission-critical or sensitive print jobs at your own risk.
+  </p>
+  <p>
+    For assistance, or to give us suggestions or feedback, please contact <a href="mailto:print-feedback@scottylabs.org">print-feedback@scottylabs.org</a>.
+  </p>
+  <img class="scottylabs-logo" src="/img/scottylabs.jpg">
+</footer>
