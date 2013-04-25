@@ -62,7 +62,7 @@ body {
 }
 
 .container .banner .text .second-line {
-  font-size:270%;
+  font-size:240%;
 }
 
 .container .banner .text .third-line {
@@ -74,6 +74,54 @@ body {
   display:inline-block;
   vertical-align:top;
   margin:0 0 0 4%;
+}
+
+@media screen and (max-width: 899px) {
+  .container .banner .text {
+    display:block;
+    width:100%;
+  }
+
+  .container .banner .phone-to-printer {
+    display:block;
+    width:70%;
+    margin:0 auto;
+  }
+
+  .container .banner .text .first-line {
+    font-size:200%;
+  }
+
+  .container .banner .text .second-line {
+    font-size:200%;
+  }
+
+  .container .banner .text .third-line {
+    font-size:200%;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .container .banner .text {
+    width:100%;
+  }
+
+  .container .banner .phone-to-printer {
+    width:100%;
+    margin:0;
+  }
+
+  .container .banner .text .first-line {
+    font-size:200%;
+  }
+
+  .container .banner .text .second-line {
+    font-size:200%;
+  }
+
+  .container .banner .text .third-line {
+    font-size:200%;
+  }
 }
 
 .container .commands {
